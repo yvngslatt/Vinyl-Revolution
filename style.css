@@ -1,0 +1,39 @@
+/* Сетка */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Шрифт */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Body */
+body{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    font-size: 32px;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.header__icons__menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+}
