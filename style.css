@@ -6,14 +6,16 @@
 
 /* Общие настройки */
 
-#cover, #main{
+#cover,
+#main,
+#popular__items {
     margin-bottom: 100px;
 }
 
 p,
 h2,
 button {
-    margin: 0 auto;
+    margin: 0;
 }
 
 /* Шрифт */
@@ -50,7 +52,7 @@ a {
     margin-left: 25px;
 }
 
-a:hover{
+a:hover {
     color: #990000;
 }
 
@@ -83,19 +85,19 @@ a:hover{
     font-weight: 700;
 }
 
-.main__items{
+.main__items {
     display: flex;
     justify-content: space-between;
 }
 
-.item__inf{
+.item__inf {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 10px;
 }
 
-.item__button{
+.item__button {
     width: 300px;
     height: 50px;
     background-color: black;
@@ -104,4 +106,39 @@ a:hover{
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 8px;
+}
+
+
+/* popular__items */
+
+#popular__items h2 {
+    margin-bottom: 50px;
+}
+
+.artist {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.catalog__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.popular__items {
+    display: flex;
+    justify-content: space-between;
 }
