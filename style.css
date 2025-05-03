@@ -245,3 +245,55 @@ a:hover {
 .contact__item img{
     margin-right: 5px;
 }
+
+
+/* footer */
+footer{
+    background-color: #eee;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+    max-width: 330px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer__logo p{
+    font-weight: 700;
+}
+
+.footer__menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    font-weight: 700;
+    padding: 0;
+}
+
+.footer__menu ul li{
+    margin-bottom: 20px;
+    display: flex;
+    text-align: right;
+}
+
+.footer__menu ul li:hover{
+    color: #990000;
+}
+
+.footer__menu{
+    display: flex;
+    align-items: center;
+    max-width: 182px;
+}
+
+.contact__item{
+    margin-bottom: 20px;
+}
