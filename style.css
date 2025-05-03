@@ -8,7 +8,11 @@
 
 #cover,
 #main,
-#popular__items {
+#popular__items,
+#about__us,
+#payment,
+#deliver,
+#contacts {
     margin-bottom: 100px;
 }
 
@@ -16,6 +20,11 @@ p,
 h2,
 button {
     margin: 0;
+}
+
+.more{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 50%)
 }
 
 /* Шрифт */
@@ -142,3 +151,96 @@ a:hover {
     display: flex;
     justify-content: space-between;
 }
+
+
+/* about__us */
+.about__us{
+    display: flex;
+    align-items: center;
+}
+
+.about__us img{
+    margin-right: 50px;
+}
+
+#about__us h2{
+    margin-bottom: 50px;
+}
+
+
+/* Pay */
+.pay{
+    display: flex;
+    height: 350px;
+}
+.pay img{
+    margin-right: 50px;
+}
+
+.pay__inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment__head{
+    margin-bottom: 57px;
+}
+
+.payment__text p{
+    margin-bottom: 20px;
+}
+
+/* Deliver */
+
+.deliver{
+    display: flex;
+    height: 350px;
+}
+
+.deliver img{
+    margin-right: 50px;
+}
+
+.deliver__inf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deliver__head{
+    margin-bottom: 57px;
+}
+
+.deliver__text p{
+    margin-bottom: 20px;
+}
+
+/* contacts */
+
+#contacts h2{
+    margin-bottom: 50px;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+}
+
+.contacts img{
+    margin-right: 50px;
+}
+
+.contacts__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__item{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.contact__item img{
+    margin-right: 5px;
